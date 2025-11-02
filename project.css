@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__link {
+    color: white;
+    font-size: 20px;
+}
+
+.header {
+    background-color: black;
+}
+
+.main__imgbox {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-bottom: 14px;
+}
+
+.main__ota {
+    background-color: black;
+    width: 287px;
+}
+
+.main__section {
+    background-color: black;
+}
+
+.main__raght {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.main__btn {
+    border: none;
+    padding: 8px;
+    background-color: #FFFFFF1A;
+    border-radius: 8px;
+    color: #FFFFFF;
+
+}
+
+.projekt__main {
+    background-color: black;
+}
+
+.main__titl {
+    color: white;
+    margin-top: 8px;
+}
+
+.main__text {
+    color: white;
+}
+
+.header__link:hover {
+    color: rgb(0, 21, 255);
+    transition: 0.5s ease-in-out;
+}
+
+.section__ota {
+    display: flex;
+    margin-top: 30px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.projekt__img {
+    border-radius: 12px;
+}
+
+.projekt__title2 {
+    color: white;
+    margin-top: 20px;
+}
+
+.projekt__left {
+    margin-bottom: 50px;
+}
+
+.projekt__box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.projekt__title {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.footer__img {
+    width: 168px;
+    height: 168px;
+    background-color: #1B92D140;
+    border-radius: 6px;
+}
+
+.footer__ota {
+    display: flex;
+    border: 2px solid #1B1B1B;
+    border-radius: 12px;
+    background-color: grey;
+    align-items: center;
+    padding: 20px;
+    gap: 32px;
+}
+
+.footer__bola {
+    color: white;
+}
+
+.footer__title {
+    padding-bottom: 12px;
+    font-size: 40px;
+}
+
+.footer__text {
+    font-size: 17px;
+    padding-bottom: 12px;
+}
+
+.footer__btn {
+    border: none;
+    background-color: #39965F;
+    padding: 8px 24px;
+    border-radius: 10px;
+    color: white;
+}
+.footer__btn:hover{
+    background-color: blue;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
