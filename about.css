@@ -23,7 +23,7 @@
 }
 .header__link{
     color: white;
-    font-size: 20px;
+    font-size: 24px;
 }
 .header{
     background-color: black;
@@ -75,7 +75,7 @@
 }
 .wrapper{
     display: flex;
-    align-items: center;
+    margin-top: 70px;
 }
 .main{
     background-color: black;
@@ -132,10 +132,51 @@ background-color: blue;
 }
 
 .header__link:hover{
-    color: rgb(0, 21, 255);
+    color: green;
     transition: 0.5s ease-in-out;
 }
 .section__ota{
 
-}
 
+}
+.main__text2{
+    color: white;
+}
+.main__title2{
+    color: white;
+    margin-left: 40px;
+}
+.bola333{
+    display: flex;
+}
+.main__tp{
+    display: flex;
+}
+.bo2{
+    display: flex;
+}
+.bo2{
+    margin-bottom: 40px;
+}
+.main__text2{
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.bx2{
+    display: flex;
+}
+.main__text2{
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.main__text2{
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.b{
+    display: flex;
+    margin-top: 30px;
+}

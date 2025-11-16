@@ -23,6 +23,7 @@
 }
 .header__link{
     color: white;
+    font-size: 24px;
 }
 .header{
     background-color: black;
@@ -87,11 +88,11 @@
 
 .main__btn2:hover{
     background-color: blue;
-    color: black;
+    color: white;
     transition: 0.5s ease-in-out;
  
 }
-.main__text2{
+.main__rect{
     padding-bottom: 61px;
     color: white;
     width: 633px;
@@ -111,6 +112,27 @@ body{
     
 }
 .header__link:hover{
-    color: rgb(0, 21, 255);
+    color: rgb(24, 242, 24);
     transition: 0.5s ease-in-out;
+}
+.main__title2{
+    color: white;
+    margin-left: 40px;
+}
+.bola333{
+    display: flex;
+}
+.main__tp{
+    display: flex;
+}
+.box2{
+    display: flex;
+}
+.box2{
+    margin-bottom: 40px;
+}
+.main__text2{
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
 }
